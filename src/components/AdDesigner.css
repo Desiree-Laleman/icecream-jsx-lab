@@ -1,0 +1,47 @@
+.AdDesigner h2,
+h3 {
+  font-family: "Caveat", cursive;
+  margin: 0px;
+}
+.AdDesigner h4 {
+  margin: 0px;
+}
+
+.AdDesigner {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.AdDesigner div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AdDesigner .ad {
+  border: solid #222 2px;
+  width: 50%;
+  height: 75px;
+}
+.AdDesigner .dark {
+  background-color: #222;
+  color: #fff;
+}
+
+.AdDesigner button {
+  background-color: #0e3c7e;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+
+.AdDesigner button:disabled {
+  background-color: gray;
+}
+
+.AdDesigner #font-scaler {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
